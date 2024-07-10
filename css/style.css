@@ -30,7 +30,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-p{
+.p{
     color: rebeccapurple;
     font-family: 'Courier New', Courier, monospace;
 }
