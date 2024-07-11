@@ -6,3 +6,7 @@ let count = document.querySelector("count");
 
 const randomNumber = Math.floor(Math.random() * 100 + 1);
 console.log(randomNumber);
+
+button.addEventListener("click", () => {
+    
+});
