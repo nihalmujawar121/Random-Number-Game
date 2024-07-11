@@ -12,6 +12,7 @@ button.addEventListener("click", () => {
   let inputValue = parseInt(input.value);
   if (randomNumber === inputValue) {
     hint.innerHTML = "Number is correct";
+    button.disabled = true;
   } else if (randomNumber < inputValue) {
     hint.innerHTML = "input value is greater than random number";
   } else {
